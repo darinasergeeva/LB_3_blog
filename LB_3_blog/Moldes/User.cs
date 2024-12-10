@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LB_3_blog;
+namespace LB_3_blog.Moldes;
 
 public partial class User
 {
