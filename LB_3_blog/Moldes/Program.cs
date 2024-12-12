@@ -1,4 +1,4 @@
-namespace LB_3_blog
+namespace LB_3_blog.Moldes
 {
     internal static class Program
     {

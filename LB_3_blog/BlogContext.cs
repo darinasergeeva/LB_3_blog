@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using LB_3_blog.Moldes;
 using Microsoft.EntityFrameworkCore;
 
-namespace LB_3_blog.Moldes;
+namespace LB_3_blog;
 
 public partial class BlogContext : DbContext
 {

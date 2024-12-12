@@ -13,7 +13,7 @@ public partial class User
 
     public string? Phone { get; set; }
 
-    public DateTime? Brithday { get; set; }
+    public DateOnly? Brithday { get; set; }
 
     public virtual ICollection<Post> Posts { get; set; } = new List<Post>();
 }

@@ -58,8 +58,19 @@ namespace LB_3_blog
                 if (user != null)
                 {
                     this.db.Entry(user).Collection(e => e.Posts).Load();
+                    this.dataGridViewPosts.DataSource = user.Posts;
                 }
             }
+        }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            //Этот код вызывает SaveChanges DbContext объект,
+            //который сохраняет все изменения, внесённые в базу данных
+            this.db!.SaveChanges();
+
+            this.dataGridViewUsers.Refresh();
+            this.dataGridViewPosts.Refresh();
         }
     }
 }

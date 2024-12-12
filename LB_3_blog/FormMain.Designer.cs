@@ -63,7 +63,7 @@
             buttonSave.TabIndex = 1;
             buttonSave.Text = "Сохранить";
             buttonSave.UseVisualStyleBackColor = true;
-            buttonSave.Click += button1_Click;
+            buttonSave.Click += buttonSave_Click;
             // 
             // panelTop
             // 
